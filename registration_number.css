@@ -1,0 +1,17 @@
+html{
+   background-image: url(http://greatinspire.com/wp-content/uploads/2013/02/Beautiful-Animals-Love-Photography-9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#regNum{
+    width: 65%;
+    height: 200px;
+    text-align: center;
+    font-size: 45px;
+    font-style: oblique;
+    border-radius: 60px;
+    border-color: black;
+    background-color: silver;
+    margin: 120px;
+    padding: 2%;
+}
