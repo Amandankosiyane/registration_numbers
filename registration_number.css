@@ -1,17 +1,76 @@
 html{
-   background-image: url(http://greatinspire.com/wp-content/uploads/2013/02/Beautiful-Animals-Love-Photography-9.jpg);
+  background-image: url(/home/bootcamp/project/registration_numbers/Lamborghini.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-#regNum{
-    width: 65%;
-    height: 200px;
+
+body{
+  margin: 50px;
+}
+
+
+
+#inpReg{
+
+    width: 90%;
+    height: 170px;
     text-align: center;
-    font-size: 45px;
+    font-size: 50px;
     font-style: oblique;
     border-radius: 60px;
-    border-color: black;
-    background-color: silver;
-    margin: 120px;
-    padding: 2%;
+    border-style: groove;
+    border-width: thick;
+    background-color: gray;
+
+    padding: 3%;
+
+}
+#user_reg{
+  font-style: oblique;
+
+}
+h3{
+  text-align: center;
+  font-style: oblique;
+  font-size: 50px;
+  color: CadetBlue;
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  color: CadetBlue;
+}
+
+#btnAdd{
+   width: 12%;
+   height: 30px;
+   background-color: DarkSalmon;
+   border-radius: 60px;
+}
+#user_reg{
+  border-radius: 40px;
+
+}
+
+li{
+  list-style: none;
+  background-color: grey;
+  border-radius: 60px;
+  width: 25%;
+  height: 30px;
+  font-style: oblique;
+  border-style: solid;
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.myRegs{
+  font-size: 20px;
+
+}
+
+#filterbtn{
+  width: 15%;
+  border-radius: 40px;
+  height: 25px;
 }

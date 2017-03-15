@@ -6,15 +6,74 @@
     <link rel="stylesheet" href="registration_number.css">
     </head>
     <body>
+      <h1>Registration Numbers</h1>
     <div class="container">
-        <form action="/action_page.php">
-        <input type="text" id="regNum" name="regNum" value="CA 45679">
-            
+        <form id="inpReg">
+        <label><b>RegNum:</b></label>
+
+
+        <input type="text" id="user_reg" name="name" value="" placeholder="Enter RegNum here">
+        <input type="button" id="btnAdd" value="Add"onclick="clickMe()">
+
+
+
+        <br>
+        <br>
+
+
+                    <div class="myRegs">
+
+                      <input id="option" list="list" placeholder="Choose a town">
+
+                      <button id="filterbtn" type = "button" onclick="filterAdd()">Filter</button>
+
+                      <datalist id="list">
+                      <option id="all" name="All">All</option>
+                      <option id="capeTown" name="Cape Town">Cape Town</option>
+                      <option id="bellville" name="Bellville">Bellville</option>
+                      <option id="paarl" name="Paarl">Paarl</option>
+                      <option id="gauteng" name="Gauteng">Gauteng</option>
+                    </datalist>
+
+<br>
+<br>
+
+
+                   </div>
+
+
+
+
         </form>
-        
-        
-        
+
+
+
+
+
+        <div class="unOrderedList" align="center">
+          <h3>Reg Numbers:</h3>
+          <ul id="AddedRegNums"></ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
+
+  <p id='show'><span id="Display"></span></p>
+
     </body>
+    <script src="registration_number.js" charset="utf-8"></script>
 
 </html>
