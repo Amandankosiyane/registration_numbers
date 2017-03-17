@@ -11,8 +11,9 @@ function clickMe() {
 }
 
 
-
+//when filter button is clicked
 function filterAdd() {
+  //declare variables to store the innerHTML option lsit
   //var opt all,capeTown, bellville, paarl, gauteng, li;
   var opt = document.getElementById("option").value;
   allReg = document.getElementById("all").innerHTML;
@@ -20,12 +21,16 @@ function filterAdd() {
   bels = document.getElementById("bellville").innerHTML;
   paarl = document.getElementById("paarl").innerHTML;
   gau = document.getElementById("gauteng").innerHTML;
+  //store the list items
   list = document.getElementsByTagName("li");
 
 for(var i =0; i<list.length; i++){
+  //store the looped items
   var curElem = list[i];
   var x = list[i].textContent.toUpperCase();
+  //if the filter textbox is typed cape town and the looped list content startsWith "CA"
   if(opt === allReg){
+    // display them
     curElem.style.display = "inline-block"
   } else if(opt === cape && x.startsWith("CA")){
     curElem.style.display = "inline-block";
