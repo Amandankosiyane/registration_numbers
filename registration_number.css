@@ -1,5 +1,5 @@
 html{
-  background-image: url('Lamborghini.jpg');
+  /*background-image: url('Lamborghini.png');*/
     background-size: cover;
     background-attachment: fixed;
 }
@@ -15,7 +15,7 @@ body{
     width: 90%;
     height: 170px;
     text-align: center;
-    font-size: 50px;
+    /*font-size: 50px;*/
     font-style: oblique;
     border-radius: 60px;
     border-style: groove;
@@ -41,12 +41,12 @@ h1{
   color: CadetBlue;
 }
 
-#btnAdd{
+/*#btnAdd{
    width: 12%;
    height: 30px;
    background-color: DarkSalmon;
    border-radius: 60px;
-}
+}*/
 #user_reg{
   border-radius: 40px;
 
@@ -69,8 +69,8 @@ li{
 
 }
 
-#filterbtn{
+/*#filterbtn{
   width: 15%;
   border-radius: 40px;
   height: 25px;
-}
+}*/
