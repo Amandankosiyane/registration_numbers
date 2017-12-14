@@ -7,19 +7,6 @@ body{
   margin: 50px;
 }
 
-#inpReg{
-    width: 90%;
-    height: 170px;
-    text-align: center;
-    font-style: oblique;
-    border-radius: 60px;
-    border-style: groove;
-    border-width: thick;
-    background-color: gray;
-
-    padding: 3%;
-
-}
 h3{
   text-align: center;
   font-style: oblique;
