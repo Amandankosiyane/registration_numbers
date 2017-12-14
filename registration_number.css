@@ -20,10 +20,6 @@ body{
     padding: 3%;
 
 }
-#user_reg{
-  font-style: oblique;
-
-}
 h3{
   text-align: center;
   font-style: oblique;
@@ -33,12 +29,6 @@ h3{
 h1{
   text-align: center;
   font-size: 60px;
-  color: CadetBlue;
-}
-
-#user_reg{
-  border-radius: 40px;
-
 }
 
 li{

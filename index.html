@@ -24,22 +24,23 @@
                                 <br>
                                 <br>
                                 <br>
-                                <div class="col-sm-6">
-                                        <div class="myRegs">
-                                                <label class="form-control-label"><b><i>Fiter:</i></b></label>
-                                                <input id="option" list="list" placeholder="Choose a town">
-                                                <button type="button" class="btn btn-info " id="filterbtn" onclick="filterAdd()">Filter</button>
-                                                <datalist id="list">
+                                <div class="myRegs">
+                                <div class="col-sm-3">
+                                        <div class="form-group">
+                                                <label class="col-sm-2 control-label"><b><i>Filter:</i></b></label>
+                                                <select id="list" class="form-control">
                                               <option id="all" name="All">All</option>
                                               <option id="capeTown" name="Cape Town">Cape Town</option>
                                               <option id="bellville" name="Bellville">Bellville</option>
                                               <option id="paarl" name="Paarl">Paarl</option>
                                               <option id="gauteng" name="Gauteng">Gauteng</option>
-                                            </datalist>
+                                      </select>
                                                 <br>
-                                                <br>
+                                                <button type="button" class="btn btn-info " id="filterbtn" onclick="filterAdd()">Filter</button>
                                         </div>
                                 </div>
+                                </div>
+
                                 <div class="col-sm-10">
                                         <div class="unOrderedList" align="center">
                                                 <h3>Reg Numbers:</h3>

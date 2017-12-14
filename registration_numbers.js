@@ -14,13 +14,14 @@ function clickMe() {
 
 function filterAdd() {
   //var opt all,capeTown, bellville, paarl, gauteng, li;
-  var opt = document.getElementById("option").value;
+  var opt = document.getElementById("list").value;
   allReg = document.getElementById("all").innerHTML;
   cape = document.getElementById("capeTown").innerHTML;
   bels = document.getElementById("bellville").innerHTML;
   paarl = document.getElementById("paarl").innerHTML;
   gau = document.getElementById("gauteng").innerHTML;
   list = document.getElementsByTagName("li");
+
 
 for(var i =0; i<list.length; i++){
   var curElem = list[i];
